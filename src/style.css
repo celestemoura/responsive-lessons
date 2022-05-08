@@ -4,6 +4,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  margin-bottom: 100px;
+}
+
 h1 {
   font-size: 96px;
 }
@@ -29,6 +33,10 @@ h3 {
   color: var(--primary-color);
 }
 
+.about-me-link:hover {
+  color: var(--primary-color);
+}
+
 .about-me-paragraph {
   display: block;
   font-size: 18px;
@@ -49,6 +57,10 @@ h3 {
   color: white;
 }
 
+.contact-link:hover {
+  color: white;
+}
+
 .email-link {
   color: var(--primary-color);
   font-size: 28px;
@@ -56,6 +68,7 @@ h3 {
 }
 
 .email-link:hover {
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -79,6 +92,10 @@ h3 {
   color: white;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+.project-button:hover {
+  color: white;
 }
 
 .project-description {
