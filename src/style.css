@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.about-me-link {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.about-me-paragraph {
+  display: block;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.container-header {
+  margin: 100px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.navigation-links-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation-links-container a {
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.project-button {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.project-description {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.project-headline {
+  margin-bottom: 15px;
+}
